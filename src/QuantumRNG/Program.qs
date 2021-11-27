@@ -1,4 +1,4 @@
-namespace QuantumHello {
+namespace QuantumRNG {
 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
