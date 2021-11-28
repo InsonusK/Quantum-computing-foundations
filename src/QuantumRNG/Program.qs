@@ -3,6 +3,7 @@ namespace QuantumRNG {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Diagnostics;
+   
     @EntryPoint()
     operation GenerateRandomBit() : Result {
         // Allocate a qubit.
