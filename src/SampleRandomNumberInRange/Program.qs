@@ -26,7 +26,7 @@ namespace SampleRandomNumberInRange {
             }
             set output = ResultArrayAsInt(bits);
             if (output > max) {
-                Message($"Generate value {output}, it is bigger than {max}. Try Again");
+                Message($"Generate value {output}, it is bigger than {max}. Try Again ");
             }
         } until (output <= max);
         return output;
